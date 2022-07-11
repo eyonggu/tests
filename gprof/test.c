@@ -1,5 +1,3 @@
-#include "ftracer.h"
-
 #define mb() asm volatile ("" ::: "memory")
 
 void f3(int a, int b, int c)
